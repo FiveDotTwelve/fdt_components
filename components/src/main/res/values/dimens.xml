@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_icon">24dp</dimen>
+
+    <dimen name="bottom_navigation_margin_top_active">6dp</dimen>
+    <dimen name="bottom_navigation_margin_top_inactive">8dp</dimen>
+    <dimen name="bottom_navigation_margin_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+
+    <dimen name="bottom_navigation_text_size_forced_active">11sp</dimen>
+    <dimen name="bottom_navigation_text_size_forced_inactive">10sp</dimen>
+
+    <!-- Notifications -->
+    <dimen name="bottom_navigation_notification_width">16dp</dimen>
+    <dimen name="bottom_navigation_notification_height">16dp</dimen>
+    <dimen name="bottom_navigation_notification_radius">8dp</dimen>
+    <dimen name="bottom_navigation_notification_elevation">1dp</dimen>
+    <dimen name="bottom_navigation_notification_padding">3dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_classic">4dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left_active">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top">4dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_active">2dp</dimen>
+    <dimen name="bottom_navigation_notification_text_size">9sp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_no_title">12dp</dimen>
+</resources>

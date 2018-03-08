@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="bottom_nav_one">One</string>
+    <string name="bottom_nav_two">Two</string>
+    <string name="bottom_nav_three">Three</string>
+</resources>

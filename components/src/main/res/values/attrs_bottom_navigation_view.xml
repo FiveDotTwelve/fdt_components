@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomNavigationView">
+        <attr name="item_icon_tint" format="color" />
+        <attr name="item_title_color" format="color" />
+        <attr name="item_background" format="reference" />
+        <attr name="nav_background" format="color" />
+        <attr name="hide_title_when_not_selected" format="boolean" />
+        <attr name="hide_on_scroll" format="boolean" />
+    </declare-styleable>
+
+</resources>

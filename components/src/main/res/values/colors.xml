@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationNotification">#ffcc0000</color>
+    <color name="colorBottomNavigationRipple">#1f000000</color>
+</resources>

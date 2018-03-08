@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomNavigationItemView">
+        <attr name="item_icon" format="reference" />
+        <attr name="item_title" format="string" />
+        <attr name="item_selected" format="boolean" />
+    </declare-styleable>
+
+</resources>

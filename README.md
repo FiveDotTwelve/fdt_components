@@ -19,6 +19,8 @@ allprojects {
     
 Add the dependency
 
+` implementation 'com.github.FiveDotTwelve:fdt_components:{LatestVersion}`
+
 [![](https://jitpack.io/v/FiveDotTwelve/fdt_components.svg)](https://jitpack.io/#FiveDotTwelve/fdt_components)
 
 fdt_components requires at minimum android sdk 21.

@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.BottomNavigationL
         setContentView(R.layout.activity_main)
 
         if (savedInstanceState != null) {
-            bottom_nav_bar.selectItem(savedInstanceState.getInt("key"))
+            bottom_nav_bar.selectItem(savedInstanceState.getInt(BOTTOM_NAV_BAR_POSITION_KEY))
         }
 
         bottom_nav_bar.setNotificationAt(99, 1)
@@ -20,11 +20,16 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.BottomNavigationL
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
-        outState?.putInt("key", bottom_nav_bar.getSelectedItemIndex())
+        outState?.putInt(BOTTOM_NAV_BAR_POSITION_KEY, bottom_nav_bar.getSelectedItemIndex())
         super.onSaveInstanceState(outState)
     }
 
     override fun onItemSelected(id: Int) {
 
+    }
+
+
+    companion object {
+        private const val BOTTOM_NAV_BAR_POSITION_KEY = "bottomNavBarPositionKey"
     }
 }

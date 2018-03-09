@@ -1,6 +1,7 @@
 package com.fivedottwelve.components
 
 import android.content.Context
+import android.support.annotation.RestrictTo
 import android.support.design.widget.BottomNavigationView
 import android.support.design.widget.CoordinatorLayout
 import android.support.v4.view.ViewCompat
@@ -12,6 +13,7 @@ import android.view.View
 /**
  * Bottom navigation view behaviour
  */
+@RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
 class BottomNavigationBehavior : CoordinatorLayout.Behavior<BottomNavigationView> {
     private var mPropertyAnimatorCompat: ViewPropertyAnimatorCompat? = null
     private var isShown = true

@@ -7,23 +7,13 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
     }
 }
 
-ext.arch_version = "1.1.0"
-ext.arch_version_room = "1.0.0"
 ext.support_version = "27.1.0"
-ext.retorfit_version = '2.3.0'
-ext.retrofit_http_version = '3.9.1'
-ext.rx_java_2_version = '2.1.1'
-ext.rx_android_2_version = '2.0.1'
-ext.dagger_version = "2.13"
-ext.android_dagger_version = "2.14.1"
 ext.constraint_layout_version = "1.1.+"
-ext.timber_version = '4.6.1'
-ext.glide4_version = '4.5.0'
-ext.play_services_version = "11.8.0"
-ext.android_ktx = "0.2"
+ext.espresso_version = "3.0.0"
 
 allprojects {
     repositories {

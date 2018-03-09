@@ -5,7 +5,6 @@ Library of commonly used components for Android by FiveDotTwelve.
 # Get It
 
 With Gradle:
-[Latest version == Release TAG]
 
 Add it in your root build.gradle at the end of repositories:
 
@@ -20,9 +19,7 @@ allprojects {
     
 Add the dependency
 
-```
-implementation 'com.github.FiveDotTwelve:fdt_components:{LATEST_VERSION}
-```
+[![](https://jitpack.io/v/FiveDotTwelve/fdt_components.svg)](https://jitpack.io/#FiveDotTwelve/fdt_components)
 
 fdt_components requires at minimum android sdk 21.
 

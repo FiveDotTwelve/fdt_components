@@ -7,6 +7,17 @@ Library of commonly used components for Android by FiveDotTwelve.
 With Gradle:
 [Latest version == Release TAG]
 
+Add it in your root build.gradle at the end of repositories:
+
+`allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}`
+    
+Add the dependency
+
 `
 implementation 'com.github.FiveDotTwelve:fdt_components:{LATEST_VERSION}
 `

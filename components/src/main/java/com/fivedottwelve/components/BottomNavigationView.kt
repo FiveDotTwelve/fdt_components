@@ -227,43 +227,43 @@ class BottomNavigationView : LinearLayout, View.OnClickListener, CoordinatorLayo
     }
 
     private fun setTitleColor(typedArray: TypedArray) {
-        titleColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_item_title_color)) {
-            typedArray.getColorStateList(R.styleable.BottomNavigationView_item_title_color)
+        titleColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_fdt_nav_title_color)) {
+            typedArray.getColorStateList(R.styleable.BottomNavigationView_fdt_nav_title_color)
         } else {
             null
         }
     }
 
     private fun setIconColor(typedArray: TypedArray) {
-        iconColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_item_icon_tint)) {
-            typedArray.getColorStateList(R.styleable.BottomNavigationView_item_icon_tint)
+        iconColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_fdt_nav_icon_tint)) {
+            typedArray.getColorStateList(R.styleable.BottomNavigationView_fdt_nav_icon_tint)
         } else {
             null
         }
     }
 
     private fun setItemBackground(typedArray: TypedArray) {
-        itemBackground = if (typedArray.hasValue(R.styleable.BottomNavigationView_item_background)) {
-            typedArray.getDrawable(R.styleable.BottomNavigationView_item_background)
+        itemBackground = if (typedArray.hasValue(R.styleable.BottomNavigationView_fdt_nav_item_background)) {
+            typedArray.getDrawable(R.styleable.BottomNavigationView_fdt_nav_item_background)
         } else {
             null
         }
     }
 
     private fun setNavBackgroundColor(typedArray: TypedArray) {
-        navBackgroundColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_nav_background)) {
-            typedArray.getColor(R.styleable.BottomNavigationView_nav_background, fetchPrimaryColor())
+        navBackgroundColor = if (typedArray.hasValue(R.styleable.BottomNavigationView_fdt_nav_background)) {
+            typedArray.getColor(R.styleable.BottomNavigationView_fdt_nav_background, fetchPrimaryColor())
         } else {
             fetchPrimaryColor()
         }
     }
 
     private fun setHideTitleWhenNotSelected(typedArray: TypedArray) {
-        hideTitleWhenNotSelected = typedArray.getBoolean(R.styleable.BottomNavigationView_hide_title_when_not_selected, false)
+        hideTitleWhenNotSelected = typedArray.getBoolean(R.styleable.BottomNavigationView_fdt_nav_hide_title_when_not_selected, false)
     }
 
     private fun setHideOnScroll(typedArray: TypedArray) {
-        hideOnScroll = typedArray.getBoolean(R.styleable.BottomNavigationView_hide_on_scroll, false)
+        hideOnScroll = typedArray.getBoolean(R.styleable.BottomNavigationView_fdt_nav_hide_on_scroll, false)
     }
 
     private fun consumeNotifications() {

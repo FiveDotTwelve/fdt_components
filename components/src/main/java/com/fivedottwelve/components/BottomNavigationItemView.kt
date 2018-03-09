@@ -253,17 +253,17 @@ class BottomNavigationItemView : FrameLayout, View.OnClickListener {
     }
 
     private fun setTitle(typedArray: TypedArray) {
-        if (typedArray.hasValue(R.styleable.BottomNavigationItemView_item_title)) {
-            title.text = typedArray.getString(R.styleable.BottomNavigationItemView_item_title)
+        if (typedArray.hasValue(R.styleable.BottomNavigationItemView_fdt_nav_title)) {
+            title.text = typedArray.getString(R.styleable.BottomNavigationItemView_fdt_nav_title)
         } else {
             title.text = ""
         }
     }
 
     private fun setIcon(typedArray: TypedArray) {
-        if (typedArray.hasValue(R.styleable.BottomNavigationItemView_item_icon)) {
+        if (typedArray.hasValue(R.styleable.BottomNavigationItemView_fdt_nav_icon)) {
             icon.visibility = View.VISIBLE
-            icon.setImageDrawable(typedArray.getDrawable(R.styleable.BottomNavigationItemView_item_icon))
+            icon.setImageDrawable(typedArray.getDrawable(R.styleable.BottomNavigationItemView_fdt_nav_icon))
         } else {
             icon.visibility = View.GONE
             icon.setImageDrawable(null)
@@ -271,8 +271,8 @@ class BottomNavigationItemView : FrameLayout, View.OnClickListener {
     }
 
     private fun setItemSelected(typedArray: TypedArray) {
-        val select = if (typedArray.hasValue(R.styleable.BottomNavigationItemView_item_selected)) {
-            typedArray.getBoolean(R.styleable.BottomNavigationItemView_item_selected, false)
+        val select = if (typedArray.hasValue(R.styleable.BottomNavigationItemView_fdt_nav_selected)) {
+            typedArray.getBoolean(R.styleable.BottomNavigationItemView_fdt_nav_selected, false)
         } else {
             false
         }

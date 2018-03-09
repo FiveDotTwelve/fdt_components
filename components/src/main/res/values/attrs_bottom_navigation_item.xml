@@ -17,9 +17,9 @@
 <resources>
 
     <declare-styleable name="BottomNavigationItemView">
-        <attr name="item_icon" format="reference" />
-        <attr name="item_title" format="string" />
-        <attr name="item_selected" format="boolean" />
+        <attr name="fdt_nav_icon" format="reference" />
+        <attr name="fdt_nav_title" format="string" />
+        <attr name="fdt_nav_selected" format="boolean" />
     </declare-styleable>
 
 </resources>
